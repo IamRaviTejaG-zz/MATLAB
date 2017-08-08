@@ -5,7 +5,6 @@ clear
 clc
 row = input('Enter no. of rows: ');
 col = input('Enter no. of columns: ');
-min = input('Enter range's lower bound: ');
-max = input('Enter range's upper bound: ');
+min = input('Enter range (lower bound): ');
+max = input('Enter range (upper bound): ');
 a = (max-min).*rand(row, col) + min;
-a
