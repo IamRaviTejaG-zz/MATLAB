@@ -8,3 +8,4 @@ col = input('Enter no. of columns: ');
 min = input('Enter range (lower bound): ');
 max = input('Enter range (upper bound): ');
 a = (max-min).*rand(row, col) + min;
+a
