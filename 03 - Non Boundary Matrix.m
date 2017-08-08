@@ -9,7 +9,7 @@ col = input('\nEnter no. of columns: ');
 a = zeros(row, col);
 for i = 2:row-1
   for j = 2:col-1
-    a(i, j) = (max-min).*rand() + min;
+    a(i, j) = (max-min)*rand() + min;
   end
 end
 a
